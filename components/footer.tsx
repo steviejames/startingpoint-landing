@@ -53,7 +53,7 @@ export const Footer = () => {
             </div>
 
             <footer className="relative z-10 mt-24 pt-8 border-t border-slate-200 text-center text-slate-500 text-sm">
-                <p>© 2024 Starting Point Technology Solutions. Luanda, Angola.</p>
+                <p>© 2025 Starting Point Technology Solutions. Luanda, Angola.</p>
             </footer>
         </section>
     );

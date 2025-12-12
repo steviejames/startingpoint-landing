@@ -88,9 +88,9 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg md:text-xl text-slate-600 max-w-2xl text-center leading-relaxed relative z-20"
+          className="text-lg md:text-xl text-slate-600 max-w-3xl text-center leading-relaxed relative z-20 text-balance"
         >
-          A Starting Point faz parceria com visionários para arquitetar, desenhar e escalar software de classe mundial, de Luanda para o mundo.
+          A Starting Point faz parceria com visionários para arquitectar, desenhar e escalar software de classe mundial, de Luanda para o mundo.
         </motion.p>
 
         <motion.div
