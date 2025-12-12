@@ -42,7 +42,7 @@ const items = [
   },
   {
     title: "Sanjila",
-    description: "Call Center Inteligente com IA disponível 24/24h para o seu negócio.",
+    description: "Call Center com IA disponível 24/24h para o seu negócio.",
     header: (
       <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-100 to-neutral-200 p-4 items-center justify-center">
         <div 
