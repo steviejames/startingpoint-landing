@@ -4,6 +4,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { MoveRight } from "lucide-react";
 import { motion, useMotionValue, useMotionTemplate } from "framer-motion";
+import Image from "next/image";
 
 export const Hero = () => {
   const mouseX = useMotionValue(0);
@@ -60,7 +61,7 @@ export const Hero = () => {
            transition={{ duration: 0.5 }}
            className="mb-8"
         >
-             <img src="/logo-full.png" alt="Starting Point" className="h-32 md:h-40 w-auto object-contain mx-auto" />
+             <Image src="/assets/logo-full.png" alt="Starting Point" width={300} height={160} className="h-32 md:h-40 w-auto object-contain mx-auto" priority />
         </motion.div>
 
         <motion.div

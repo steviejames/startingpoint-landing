@@ -30,17 +30,23 @@ export const Navbar = () => {
       transition={{ duration: 0.3 }}
     >
       <div className="hidden md:flex items-center gap-12 text-base font-medium text-slate-600">
-        <Link href="#ecosystem" className="hover:text-neon-blue hover:scale-105 transition-all">
+        <Link href="/#ecosystem" className="hover:text-neon-blue hover:scale-105 transition-all">
           Ecossistema
         </Link>
-        <Link href="#services" className="hover:text-neon-blue hover:scale-105 transition-all">
+        <Link href="/#services" className="hover:text-neon-blue hover:scale-105 transition-all">
           Serviços
         </Link>
-        <Link href="#method" className="hover:text-neon-blue hover:scale-105 transition-all">
+        <Link href="/#method" className="hover:text-neon-blue hover:scale-105 transition-all">
           Método
         </Link>
-        <Link href="#contact" className="hover:text-neon-blue hover:scale-105 transition-all">
+        <Link href="/#contact" className="hover:text-neon-blue hover:scale-105 transition-all">
           Contacto
+        </Link>
+        <Link 
+          href="/jobs" 
+          className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 hover:scale-105 transition-all shadow-md hover:shadow-lg"
+        >
+          Estamos a recrutar!
         </Link>
       </div>
 
@@ -63,32 +69,39 @@ export const Navbar = () => {
             className="absolute top-full left-1/2 -translate-x-1/2 mt-4 p-4 w-[90vw] max-w-sm bg-white/90 backdrop-blur-2xl border border-white/40 shadow-2xl rounded-2xl flex flex-col gap-4 text-center md:hidden overflow-hidden"
           >
             <Link 
-              href="#ecosystem" 
+              href="/#ecosystem" 
               onClick={() => setIsOpen(false)}
               className="py-2 text-slate-600 font-medium hover:text-blue-500 hover:bg-slate-50 rounded-lg transition-all"
             >
               Ecossistema
             </Link>
             <Link 
-              href="#services" 
+              href="/#services" 
               onClick={() => setIsOpen(false)}
               className="py-2 text-slate-600 font-medium hover:text-blue-500 hover:bg-slate-50 rounded-lg transition-all"
             >
               Serviços
             </Link>
             <Link 
-              href="#method" 
+              href="/#method" 
               onClick={() => setIsOpen(false)}
               className="py-2 text-slate-600 font-medium hover:text-blue-500 hover:bg-slate-50 rounded-lg transition-all"
             >
               Método
             </Link>
             <Link 
-              href="#contact" 
+              href="/#contact" 
               onClick={() => setIsOpen(false)}
               className="py-2 text-slate-600 font-medium hover:text-blue-500 hover:bg-slate-50 rounded-lg transition-all"
             >
               Contacto
+            </Link>
+            <Link 
+              href="/jobs" 
+              onClick={() => setIsOpen(false)}
+              className="py-2 bg-blue-600 text-white font-medium hover:bg-blue-700 rounded-lg transition-all mx-4 shadow-md"
+            >
+              Estamos a recrutar!
             </Link>
           </motion.div>
         )}
