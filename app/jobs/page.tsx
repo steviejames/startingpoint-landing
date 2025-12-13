@@ -119,7 +119,7 @@ export default function JobsPage() {
             <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[350px] h-[350px] flex items-center justify-center pointer-events-none">
               <div className="absolute inset-20 bg-purple-500/20 rounded-full blur-3xl -z-10" />
               <Image 
-                src="/assets/jobs/design-3d-v2.png" // Character designing
+                src="/assets/jobs/design-3d-final.png" // Character designing
                 alt="Graphic Designer"
                 width={350}
                 height={350}
